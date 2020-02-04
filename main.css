@@ -1,30 +1,50 @@
-h1 {
-  font-size: 30px;
-  font-family: sans;
-
-}
-
-p {
-  font-size: 1.5em;
-  font-family: sans-serif;
+html {
+  font-size: 10 px;
 }
 
 body {
-
-
 }
+
 main {
   background-color: lightgray;
 }
+h1 {
+  font-size: 3rem;
+  font-family: sans;
+}
+h3 {
+  font-size: 2rem;
+}
+p {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+div {
+  width: auto;
+  text-align: center;
+}
+a {
+  color: blue;
+}
+
+ul {
+  border: 5px;
+  margin: 2rem 2rem 2rem 2rem;
+}
+li {
+  list-style-type: circle;
+}
+
 figure {
   background-color: yellow;
 }
 figcaption {
+  text-align: center;
   background-color: pink;
 }
 img {
   border-radius: 10px;
-  width: 300px;
+  max-width: 100%;
 }
 .container {
   text-align: center;
@@ -36,20 +56,20 @@ img {
 #main {
   }
 #title {
-  display: inline-block;
+  
 }
 #img-div {
-  display: inline-block;
+  
 }
 #image {
-  display: inline-block;
+  
 }
 #img-caption {
-  display: inline-block;
+  
 }
 #tribute-info {
-  display: inline-block;
+/ 
 }
 #tribute-link {
-  display: inline-block;
+  text-align: center;
 }
